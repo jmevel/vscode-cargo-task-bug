@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "rust: cargo version",
+            "type": "cargo",
+            "command": "version"
+        },
+        {
+            "label": "rust: cargo build",
+            "type": "cargo",
+            "command": "build"
+        },
+        {
+            "label": "shell: cargo version",
+            "type": "shell",
+            "command": "cargo version"
+        },
+        {
+            "label": "shell: cargo build",
+            "type": "shell",
+            "command": "cargo build"
+        }
+    ]
+}
