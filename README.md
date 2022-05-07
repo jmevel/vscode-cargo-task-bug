@@ -7,6 +7,7 @@ This project has simply been created with `cargo new vscode-cargo-task-bug`, I t
 As you can see, when launching the project with Visual Studio Code, the task runner isn't able to completely parse the `tasks.json` file and an error popup occurred showing the following error
 
 >Error: The cargo task detection didn't contribute a task for the following configuration:
+>
 >```json
 >{
 >    "label": "rust: cargo version",
@@ -14,9 +15,11 @@ As you can see, when launching the project with Visual Studio Code, the task run
 >    "command": "version"
 >}
 >```
+>
 >The task will be ignored.
 >
 >Error: The cargo task detection didn't contribute a task for the following configuration:
+>
 >```json
 >{
 >    "label": "rust: cargo build",
@@ -24,6 +27,7 @@ As you can see, when launching the project with Visual Studio Code, the task run
 >    "command": "build"
 >}
 >```
+>
 >The task will be ignored.
 
 As a workaround, one can replace the `cargo` command by a `shell` one as shown in the `tasks.json` file.
